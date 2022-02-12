@@ -12,3 +12,8 @@ function calculation() {
 function allClear() {
     displayMonitor.value = '';
 }
+
+function backSpace() {
+    const exp = displayMonitor.value;
+    displayMonitor.value = exp.slice(0, -1);
+}
